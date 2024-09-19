@@ -7,15 +7,24 @@ $isWin11 = (Get-WmiObject Win32_OperatingSystem).Caption -Match "Windows 11"
 $isWin10 = (Get-WmiObject Win32_OperatingSystem).Caption -Match "Windows 10"
 $isWin7 = (Get-WmiObject Win32_OperatingSystem).Caption -Match "Windows 7"
 
-$isX64 = (Get-WmiObject win32_operatingsystem | select osarchitecture).osarchitecture -eq "64-bit"
+$Arch = (Get-Process -Id $PID).StartInfo.EnvironmentVariables["PROCESSOR_ARCHITECTURE"];
+
+$PlatformBit = ""
+
+if ($Arch -eq 'x86') {
+    $PlatformBit = "x86"
+}
+elseif ($Arch -eq 'amd64') {
+    $PlatformBit = "x64"
+}
 
 # TODO: add other windows operating system versions
 if ($isWin11) {
-    Write-Output "executing for Windows 11 with compiler $CompilerName"
+    Write-Output "executing for Windows 11 with compiler $CompilerName | platform $Arch ($PlatformBit)"
 
     
 
 }
 elseif ($isWin10) {
-    Write-Output "executing for Windows 10 with compiler $CompilerName"
+    Write-Output "executing for Windows 10 with compiler $CompilerName | platform $Arch ($PlatformBit)"
 }
