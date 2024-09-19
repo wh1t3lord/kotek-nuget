@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Dav1d.Vcpkg.Win11.Msvc.x64</id>
+        <version>1.3.0</version>
+        <title>Dav1d</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE.txt</license>
+        <readme>README.md</readme>
+        <projectUrl>https://code.videolan.org/videolan/dav1d</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>dav1d is the fastest AV1 decoder on all platforms :) Targeted to be small, portable and very fast.</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright © 2018-2019, VideoLAN and dav1d authors</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.Dav1d.Vcpkg.Runtimes" version="1.3.0" />
+                <dependency id="Kotek.Packages.Dav1d.Vcpkg.Symbols" version="1.3.0" />
+            </group>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\dep\xiph\opus\2554a89e02c7fc30a980b4f7e635ceae1ecba5d6\README.md" target="README.md" />
+        <file src="..\..\..\..\dep\xiph\opus\2554a89e02c7fc30a980b4f7e635ceae1ecba5d6\LICENSE.txt" target="LICENSE.txt" />
+    </files>
+</package>
