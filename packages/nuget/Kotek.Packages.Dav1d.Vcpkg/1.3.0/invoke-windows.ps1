@@ -21,17 +21,22 @@ elseif ($Arch -eq 'amd64') {
     $PlatformBit = "x64"
 }
 
+nuget pack $PSScriptRoot\metapackage.nuspec -OutputDirectory $Output
+nuget pack $PSScriptRoot\runtimes.nuspec -OutputDirectory $Output
+
 # TODO: add other windows operating system versions
 if ($isWin11) {
     Write-Output "executing for Windows 11 with compiler $CompilerName | platform $Arch ($PlatformBit)"
 
     $PlatformName = "win11"
 
-    nuget pack $PSScriptRoot\metapackage.nuspec -OutputDirectory $Output
-    nuget pack $PSScriptRoot\runtimes.nuspec -OutputDirectory $Output
     nuget pack $PSScriptRoot\runtimes.win11-msvc-x64.nuspec -OutputDirectory $Output
 
 }
 elseif ($isWin10) {
     Write-Output "executing for Windows 10 with compiler $CompilerName | platform $Arch ($PlatformBit)"
+
+    $PlatformName = "win10"
+
+    nuget pack $PSScriptRoot\runtimes.win10-msvc-x64.nuspec -OutputDirectory $Output
 }

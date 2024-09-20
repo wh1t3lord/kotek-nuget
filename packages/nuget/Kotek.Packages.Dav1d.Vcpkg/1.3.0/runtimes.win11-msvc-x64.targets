@@ -13,6 +13,7 @@
     <PropertyGroup>
         <Dav1d-RootPath>$(MSBuildThisFileDirectory)\..\..</Dav1d-RootPath>
         <Dav1d-BinPath>$(Dav1d-RootPath)\runtimes\win11\msvc\x64\bin\$(NuGetConfiguration)\</Dav1d-BinPath>
+        <Dav1d-LibPath>$(Dav1d-RootPath)\runtimes\win11\msvc\x64\lib\$(NuGetConfiguration)\</Dav1d-LibPath>
         <Dav1d-IncPath>$(Dav1d-RootPath)\runtimes\win11\msvc\x64\include</Dav1d-IncPath>
     </PropertyGroup>
 
@@ -22,7 +23,7 @@
         </ClCompile>
 
         <Link>
-            <AdditionalLibraryDirectories>$(Dav1d-BinPath);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+            <AdditionalLibraryDirectories>$(Dav1d-BinPath);$(Dav1d-LibPath);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
             <AdditionalDependencies>dav1d.lib;%(AdditionalDependencies)</AdditionalDependencies>
         </Link>
     </ItemDefinitionGroup>
