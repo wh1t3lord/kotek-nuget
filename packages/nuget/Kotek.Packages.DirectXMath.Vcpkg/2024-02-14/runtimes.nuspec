@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.DirectXMath.Vcpkg.Runtimes</id>
+        <version>2024.02.14</version>
+        <title>DirectXMath</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE</license>
+        <readme>README.md</readme>
+        <projectUrl>https://code.videolan.org/videolan/dav1d</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>DirectXMath is an all inline SIMD C++ linear algebra library for use in games and graphics apps</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) Microsoft Corporation.</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.DirectXMath.Vcpkg.Runtimes.Win11.Msvc.x64" version="2024.02.14" />
+                <dependency id="Kotek.Packages.DirectXMath.Vcpkg.Runtimes.Win10.Msvc.x64" version="2024.02.14" />
+            </group>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\directxmath\src\feb2024b-d536663931.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\directxmath\src\feb2024b-d536663931.clean\LICENSE" target="LICENSE" />
+    </files>
+</package>
