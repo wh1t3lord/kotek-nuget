@@ -15,13 +15,6 @@
         <releaseNotes></releaseNotes>
         <copyright>Copyright (c) Microsoft Corporation.</copyright>
         <tags>Native C++ NativePackage kotek Zircon</tags>
-
-        <dependencies>
-            <group targetFramework="native">
-                <dependency id="Kotek.Packages.DirectXMath.Vcpkg.Runtimes.Win11.Msvc.x64" version="2024.02.14" />
-                <dependency id="Kotek.Packages.DirectXMath.Vcpkg.Runtimes.Win10.Msvc.x64" version="2024.02.14" />
-            </group>
-        </dependencies>
     </metadata>
 
     <files>
@@ -29,5 +22,8 @@
         <file src="..\..\..\..\..\vcpkg\buildtrees\directxmath\src\feb2024b-d536663931.clean\LICENSE" target="LICENSE" />
 
         <file src="..\..\..\..\..\vcpkg\packages\directxmath_x64-windows\include\directxmath\**" target="runtimes\win10\msvc\x64\include\directxmath\" />
+
+        <file src="runtimes.win10-msvc-x64.targets" target="runtimes\win10\msvc\x64\Kotek.Packages.DirectXMath.Vcpkg.Runtimes.Win11.Msvc.x64.targets" />
+        <file src="runtimes.win10-msvc-x64.cmake" target="runtimes\win10\msvc\x64\Kotek.Packages.DirectXMath.Vcpkg.Runtimes.Win11.Msvc.x64.cmake" />
     </files>
 </package>

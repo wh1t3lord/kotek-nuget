@@ -12,7 +12,7 @@
 
     <PropertyGroup>
         <DirectXMath-RootPath>$(MSBuildThisFileDirectory)\..\..</DirectXMath-RootPath>
-        <DirectXMath-IncPath>$(DirectXMath-RootPath)\runtimes\win10\msvc\x64\include</DirectXMath-IncPath>
+        <DirectXMath-IncPath>$(DirectXMath-RootPath)\runtimes\win11\msvc\x64\include</DirectXMath-IncPath>
     </PropertyGroup>
 
     <ItemDefinitionGroup>

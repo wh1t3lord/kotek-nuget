@@ -19,14 +19,18 @@ Write-Output "Platform is $OsName"
 
 $VersionFolderDav1dName = ""
 $VersionFolderDirectXMathName = ""
+$VersionFolderCgltfName = ""
 if ($Latest -eq "1") {
     $VersionFolderDav1dName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Dav1d.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
     $VersionFolderDirectXMathName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.DirectXMath.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
+    $VersionFolderCgltfName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Cgltf.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
 }
 else {
     $VersionFolderDav1dName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Dav1d.Vcpkg\ -Force -Recurse | Select-Object -First 1)
     $VersionFolderDirectXMathName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.DirectXMath.Vcpkg\ -Force -Recurse | Select-Object -First 1)
+    $VersionFolderCgltfName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Cgltf.Vcpkg\ -Force -Recurse | Select-Object -First 1)
 }
 
 . .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Dav1d.Vcpkg -Version $VersionFolderDav1dName -CompilerName $CompilerName
 . .\build-windows.ps1 -Type nuget -Name Kotek.Packages.DirectXMath.Vcpkg -Version $VersionFolderDirectXMathName -CompilerName $CompilerName
+. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Cgltf.Vcpkg -Version $VersionFolderCgltfName -CompilerName $CompilerName

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>Kotek.Packages.Cgltf.Vcpkg.Runtimes</id>
+        <id>Kotek.Packages.Cgltf.Vcpkg</id>
         <version>1.14</version>
         <title>cgltf</title>
         <authors>wh1t3lord</authors>
@@ -18,8 +18,7 @@
 
         <dependencies>
             <group targetFramework="native">
-                <dependency id="Kotek.Packages.Cgltf.Vcpkg.Runtimes.Win11.Msvc.x64" version="1.14" />
-                <dependency id="Kotek.Packages.Cgltf.Vcpkg.Runtimes.Win10.Msvc.x64" version="1.14" />
+                <dependency id="Kotek.Packages.Cgltf.Vcpkg.Runtimes" version="1.14" />
             </group>
         </dependencies>
     </metadata>
