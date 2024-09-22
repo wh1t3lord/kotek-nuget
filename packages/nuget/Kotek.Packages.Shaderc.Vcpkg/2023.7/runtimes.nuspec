@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Shaderc.Vcpkg.Runtimes</id>
+        <version>2023.7</version>
+        <title>shaderc</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/google/shaderc</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>A collection of tools, libraries, and tests for Vulkan shader compilation.</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright 2015 The Shaderc Authors. All rights reserved.</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.Shaderc.Vcpkg.Runtimes.Win11.Msvc.x64" version="2023.7" />
+            </group>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\shaderc\src\v2023.7-56fc47ba3c.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\shaderc\src\v2023.7-56fc47ba3c.clean\LICENSE" target="LICENSE" />
+    </files>
+</package>

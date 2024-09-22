@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Glm.Vcpkg.Runtimes.Win11.Msvc.x64</id>
+        <version>1.0.0</version>
+        <title>glm</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">copying.txt</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/g-truc/glm</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>OpenGL Mathematics (GLM)</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) 2005 - G-Truc Creation</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\glm\src\1.0.0-0877080849.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\glm\src\1.0.0-0877080849.clean\copying.txt" target="copying.txt" />
+
+        <file src="..\..\..\..\..\vcpkg\packages\glm_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+
+                <file src="..\..\..\..\..\vcpkg\packages\glm_x64-windows\debug\lib\glm.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\glm_x64-windows\lib\glm.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+    </files>
+</package>

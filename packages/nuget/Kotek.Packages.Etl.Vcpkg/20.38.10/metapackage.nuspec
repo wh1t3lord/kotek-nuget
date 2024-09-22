@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>Kotek.Packages.Etl.Vcpkg.Runtimes.Win11.Msvc.x64</id>
+        <id>Kotek.Packages.Etl.Vcpkg</id>
         <version>20.38.10</version>
         <title>etl</title>
         <authors>wh1t3lord</authors>
@@ -15,12 +15,16 @@
         <releaseNotes></releaseNotes>
         <copyright>Copyright(c) 2017 John Wellbelove</copyright>
         <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.Etl.Vcpkg.Runtimes" version="20.38.10" />
+            </group>
+        </dependencies>
     </metadata>
 
     <files>
         <file src="..\..\..\..\..\vcpkg\buildtrees\etl\src\20.38.10-c1d135cee8.clean\README.md" target="README.md" />
         <file src="..\..\..\..\..\vcpkg\buildtrees\etl\src\20.38.10-c1d135cee8.clean\LICENSE" target="LICENSE" />
-
-        <file src="..\..\..\..\..\vcpkg\packages\etl_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
     </files>
 </package>

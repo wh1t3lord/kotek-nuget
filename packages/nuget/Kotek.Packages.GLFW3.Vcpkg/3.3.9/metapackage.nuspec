@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Glfw3.Vcpkg</id>
+        <version>3.3.9</version>
+        <title>glfw3</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE.md</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/glfw/glfw</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) 2002-2006 Marcus Geelnard Copyright (c) 2006-2019 Camilla Löwy</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.Glfw3.Vcpkg.Runtimes" version="3.3.9" />
+            </group>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\glfw3\src\3.3.9-5e1d739809.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\glfw3\src\3.3.9-5e1d739809.clean\LICENSE.md" target="LICENSE.md" />
+    </files>
+</package>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Spirv-tools.Vcpkg</id>
+        <version>1.3.275.0</version>
+        <title>SPIRV-Tools</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/KhronosGroup/SPIRV-Reflect</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>SPIRV-Reflect is a lightweight library that provides a C/C++ reflection API for SPIR-V shader bytecode in Vulkan applications.</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) 2014-2020 The Khronos Group Inc.</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.Spirv-tools.Vcpkg.Runtimes" version="1.3.275.0" />
+            </group>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\spirv-reflect\src\-1.3.275.0-f75fb3321e.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\spirv-reflect\src\-1.3.275.0-f75fb3321e.clean\LICENSE" target="LICENSE" />
+    </files>
+</package>

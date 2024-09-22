@@ -22,8 +22,5 @@
         <file src="..\..\..\..\..\vcpkg\buildtrees\eigen3\src\3.4.0-1beca8819c.clean\COPYING.md" target="COPYING.md" />
 
         <file src="..\..\..\..\..\vcpkg\packages\eigen3_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
-
-        <file src="runtimes.win11-msvc-x64.targets" target="runtimes\win11\msvc\x64\Kotek.Packages.Eigen3.Vcpkg.Runtimes.Win11.Msvc.x64.targets" />
-        <file src="runtimes.win11-msvc-x64.cmake" target="runtimes\win11\msvc\x64\Kotek.Packages.Eigen3.Vcpkg.Runtimes.Win11.Msvc.x64.cmake" />
     </files>
 </package>

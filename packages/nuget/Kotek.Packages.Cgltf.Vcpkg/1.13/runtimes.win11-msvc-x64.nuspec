@@ -22,8 +22,5 @@
         <file src="..\..\..\..\..\vcpkg\buildtrees\cgltf\src\v1.13-ba4e2cf8d4.clean\LICENSE" target="LICENSE" />
 
         <file src="..\..\..\..\..\vcpkg\packages\cgltf_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
-
-        <file src="runtimes.win11-msvc-x64.targets" target="runtimes\win11\msvc\x64\Kotek.Packages.Cgltf.Vcpkg.Runtimes.Win11.Msvc.x64.targets" />
-        <file src="runtimes.win11-msvc-x64.cmake" target="runtimes\win11\msvc\x64\Kotek.Packages.Cgltf.Vcpkg.Runtimes.Win11.Msvc.x64.cmake" />
     </files>
 </package>

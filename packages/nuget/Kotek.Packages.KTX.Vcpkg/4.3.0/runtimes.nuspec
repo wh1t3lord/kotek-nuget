@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Ktx.Vcpkg.Runtimes</id>
+        <version>4.3.0</version>
+        <title>KTX-Software</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">License.md</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/KhronosGroup/KTX-Software</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>KTX (Khronos Texture) Library and Tools</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright 2010-2018 The Khronos Group, Inc.</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.Ktx.Vcpkg.Runtimes.Win11.Msvc.x64" version="4.3.0" />
+            </group>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\ktx\src\.3.0-beta1-a2228106ce.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\ktx\src\.3.0-beta1-a2228106ce.clean\License.md" target="License.md" />
+    </files>
+</package>

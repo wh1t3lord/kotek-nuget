@@ -26,10 +26,11 @@
         <file src="..\..\..\..\..\vcpkg\packages\dav1d_x64-windows\debug\lib\dav1d.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
         <file src="..\..\..\..\..\vcpkg\packages\dav1d_x64-windows\lib\dav1d.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
 
+        <file src="..\..\..\..\..\vcpkg\packages\dav1d_x64-windows\debug\bin\dav1d.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\dav1d_x64-windows\bin\dav1d.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        
+
         <file src="..\..\..\..\..\vcpkg\packages\dav1d_x64-windows\debug\bin\dav1d.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
         <file src="..\..\..\..\..\vcpkg\packages\dav1d_x64-windows\bin\dav1d.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
-        
-        <file src="runtimes.win11-msvc-x64.targets" target="runtimes\win11\msvc\x64\Kotek.Packages.Dav1d.Vcpkg.Runtimes.Win11.Msvc.x64.targets" />
-        <file src="runtimes.win11-msvc-x64.cmake" target="runtimes\win11\msvc\x64\Kotek.Packages.Dav1d.Vcpkg.Runtimes.Win11.Msvc.x64.cmake" />
     </files>
 </package>
