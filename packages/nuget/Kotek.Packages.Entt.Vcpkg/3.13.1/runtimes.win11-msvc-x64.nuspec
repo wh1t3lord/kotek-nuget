@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Entt.Vcpkg.Runtimes.Win11.Msvc.x64</id>
+        <version>3.13.1</version>
+        <title>entt</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/skypjack/entt</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>Gaming meets modern C++ - a fast and reliable entity component system (ECS) and much more</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) 2017-2024 Michele Caini, author of EnTT</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\entt\src\v3.13.1-bfe7f7a0ce.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\entt\src\v3.13.1-bfe7f7a0ce.clean\LICENSE" target="LICENSE" />
+
+        <file src="..\..\..\..\..\vcpkg\packages\entt_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+
+        <file src="runtimes.win11-msvc-x64.targets" target="runtimes\win11\msvc\x64\Kotek.Packages.Entt.Vcpkg.Runtimes.Win11.Msvc.x64.targets" />
+        <file src="runtimes.win11-msvc-x64.cmake" target="runtimes\win11\msvc\x64\Kotek.Packages.Entt.Vcpkg.Runtimes.Win11.Msvc.x64.cmake" />
+    </files>
+</package>

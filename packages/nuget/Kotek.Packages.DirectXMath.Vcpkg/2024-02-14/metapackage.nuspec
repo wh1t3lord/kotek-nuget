@@ -24,7 +24,7 @@
     </metadata>
 
     <files>
-        <file src="..\..\..\..\..\vcpkg\buildtrees\directxmath\src\feb2024b-d536663931.clean\README.md" target="README.md" />
-        <file src="..\..\..\..\..\vcpkg\buildtrees\directxmath\src\feb2024b-d536663931.clean\LICENSE" target="LICENSE" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\directxmath\src\feb2024-bfa153d980.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\directxmath\src\feb2024-bfa153d980.clean\LICENSE" target="LICENSE" />
     </files>
 </package>

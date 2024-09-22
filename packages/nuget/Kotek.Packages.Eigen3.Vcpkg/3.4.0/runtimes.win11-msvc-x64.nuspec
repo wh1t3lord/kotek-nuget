@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Eigen3.Vcpkg.Runtimes.Win11.Msvc.x64</id>
+        <version>3.4.0</version>
+        <title>eigen3</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">COPYING.md</license>
+        <readme>README.md</readme>
+        <projectUrl>https://gitlab.com/libeigen/eigen</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Eigen is primarily MPL2 licensed.</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\eigen3\src\3.4.0-1beca8819c.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\eigen3\src\3.4.0-1beca8819c.clean\COPYING.md" target="COPYING.md" />
+
+        <file src="..\..\..\..\..\vcpkg\packages\eigen3_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+
+        <file src="runtimes.win11-msvc-x64.targets" target="runtimes\win11\msvc\x64\Kotek.Packages.Eigen3.Vcpkg.Runtimes.Win11.Msvc.x64.targets" />
+        <file src="runtimes.win11-msvc-x64.cmake" target="runtimes\win11\msvc\x64\Kotek.Packages.Eigen3.Vcpkg.Runtimes.Win11.Msvc.x64.cmake" />
+    </files>
+</package>

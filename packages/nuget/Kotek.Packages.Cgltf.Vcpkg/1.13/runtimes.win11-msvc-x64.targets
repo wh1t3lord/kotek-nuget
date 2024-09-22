@@ -11,13 +11,13 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <eigen3-RootPath>$(MSBuildThisFileDirectory)\..\..</eigen3-RootPath>
-        <eigen3-IncPath>$(eigen3-RootPath)\runtimes\win11\msvc\x64\include</eigen3-IncPath>
+        <cgltf-RootPath>$(MSBuildThisFileDirectory)\..\..</cgltf-RootPath>
+        <cgltf-IncPath>$(cgltf-RootPath)\runtimes\win11\msvc\x64\include</cgltf-IncPath>
     </PropertyGroup>
 
     <ItemDefinitionGroup>
         <ClCompile>
-            <AdditionalIncludeDirectories>$(eigen3-IncPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+            <AdditionalIncludeDirectories>$(cgltf-IncPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
         </ClCompile>
     </ItemDefinitionGroup>
 </Project>

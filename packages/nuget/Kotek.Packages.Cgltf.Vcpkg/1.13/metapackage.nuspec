@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>Kotek.Packages.Cgltf.Vcpkg.Runtimes.Win10.Msvc.x64</id>
-        <version>1.14</version>
+        <id>Kotek.Packages.Cgltf.Vcpkg</id>
+        <version>1.13</version>
         <title>cgltf</title>
         <authors>wh1t3lord</authors>
         <owners>wh1t3lord</owners>
@@ -15,15 +15,16 @@
         <releaseNotes></releaseNotes>
         <copyright>Copyright (c) 2018-2021 Johannes Kuhlmann</copyright>
         <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.Cgltf.Vcpkg.Runtimes" version="1.13" />
+            </group>
+        </dependencies>
     </metadata>
 
     <files>
-        <file src="..\..\..\..\..\vcpkg\buildtrees\cgltf\src\v1.14-7cf8b4171b.clean\README.md" target="README.md" />
-        <file src="..\..\..\..\..\vcpkg\buildtrees\cgltf\src\v1.14-7cf8b4171b.clean\LICENSE" target="LICENSE" />
-
-        <file src="..\..\..\..\..\vcpkg\packages\cgltf_x64-windows\include\**" target="runtimes\win10\msvc\x64\include\" />
-
-        <file src="runtimes.win10-msvc-x64.targets" target="runtimes\win10\msvc\x64\Kotek.Packages.Cgltf.Vcpkg.Runtimes.Win10.Msvc.x64.targets" />
-        <file src="runtimes.win10-msvc-x64.cmake" target="runtimes\win10\msvc\x64\Kotek.Packages.Cgltf.Vcpkg.Runtimes.Win10.Msvc.x64.cmake" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\cgltf\src\v1.13-ba4e2cf8d4.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\cgltf\src\v1.13-ba4e2cf8d4.clean\LICENSE" target="LICENSE" />
     </files>
 </package>
