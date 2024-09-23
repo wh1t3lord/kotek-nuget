@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>Kotek.Packages.Utfcpp.Vcpkg.Runtimes</id>
+        <id>Kotek.Packages.Utfcpp.Vcpkg</id>
         <version>4.0.5</version>
         <title>utfcpp</title>
         <authors>wh1t3lord</authors>
@@ -18,8 +18,7 @@
 
         <dependencies>
             <group targetFramework="native">
-                <dependency id="Kotek.Packages.Utfcpp.Vcpkg.Runtimes.Win11.Msvc.x64" version="4.0.5" />
-                <dependency id="Kotek.Packages.Utfcpp.Vcpkg.Runtimes.Win10.Msvc.x64" version="4.0.5" />
+                <dependency id="Kotek.Packages.Utfcpp.Vcpkg.Runtimes" version="4.0.5" />
             </group>
         </dependencies>
     </metadata>

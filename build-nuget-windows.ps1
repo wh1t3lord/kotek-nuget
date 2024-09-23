@@ -33,6 +33,7 @@ $VersionFolderSpirvReflectName = ""
 $VersionFolderSpirvToolsName = ""
 $VersionFolderOneTbbName = ""
 $VersionFolderTracyName = ""
+$VersionFolderUtfcppName = ""
 
 if ($Latest -eq "1") {
     $VersionFolderDav1dName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Dav1d.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
@@ -51,6 +52,7 @@ if ($Latest -eq "1") {
     $VersionFolderSpirvToolsName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Spirv-tools.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
     $VersionFolderOneTbbName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.TBB.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
     $VersionFolderTracyName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Tracy.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
+    $VersionFolderUtfcppName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Utfcpp.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
 }
 else {
     $VersionFolderDav1dName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Dav1d.Vcpkg\ -Force -Recurse | Select-Object -First 1)
@@ -69,6 +71,7 @@ else {
     $VersionFolderSpirvToolsName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Spirv-tools.Vcpkg\ -Force -Recurse | Select-Object -First 1)
     $VersionFolderOneTbbName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.TBB.Vcpkg\ -Force -Recurse | Select-Object -First 1)
     $VersionFolderTracyName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Tracy.Vcpkg\ -Force -Recurse | Select-Object -First 1)
+    $VersionFolderUtfcppName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Utfcpp.Vcpkg\ -Force -Recurse | Select-Object -First 1)
 }
 
 #. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Dav1d.Vcpkg -Version $VersionFolderDav1dName -CompilerName $CompilerName
@@ -86,4 +89,5 @@ else {
 #. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spirv-reflect.Vcpkg -Version $VersionFolderSpirvReflectName -CompilerName $CompilerName
 #. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spirv-tools.Vcpkg -Version $VersionFolderSpirvToolsName -CompilerName $CompilerName
 #. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.TBB.Vcpkg -Version $VersionFolderOneTbbName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Tracy.Vcpkg -Version $VersionFolderTracyName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Tracy.Vcpkg -Version $VersionFolderTracyName -CompilerName $CompilerName
+. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Utfcpp.Vcpkg -Version $VersionFolderUtfcppName -CompilerName $CompilerName
