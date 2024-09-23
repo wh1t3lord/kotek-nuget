@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>Kotek.Packages.Tracy.Vcpkg.Runtimes</id>
+        <id>Kotek.Packages.Tracy.Vcpkg</id>
         <version>0.11.1</version>
         <title>tracy</title>
         <authors>wh1t3lord</authors>
@@ -18,8 +18,7 @@
 
         <dependencies>
             <group targetFramework="native">
-                <dependency id="Kotek.Packages.Tracy.Vcpkg.Runtimes.Win11.Msvc.x64" version="0.11.1" />
-                <dependency id="Kotek.Packages.Tracy.Vcpkg.Runtimes.Win10.Msvc.x64" version="0.11.1" />
+                <dependency id="Kotek.Packages.Tracy.Vcpkg.Runtimes" version="0.11.1" />
             </group>
         </dependencies>
     </metadata>
