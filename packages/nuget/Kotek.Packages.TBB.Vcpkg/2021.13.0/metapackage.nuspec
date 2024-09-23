@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>Kotek.Packages.Onetbb.Vcpkg.Runtimes</id>
+        <id>Kotek.Packages.Onetbb.Vcpkg</id>
         <version>2021.13.0</version>
         <title>oneTBB</title>
         <authors>wh1t3lord</authors>
@@ -18,8 +18,7 @@
 
         <dependencies>
             <group targetFramework="native">
-                <dependency id="Kotek.Packages.Onetbb.Vcpkg.Runtimes.Win11.Msvc.x64" version="2021.13.0" />
-                <dependency id="Kotek.Packages.Onetbb.Vcpkg.Runtimes.Win10.Msvc.x64" version="2021.13.0" />
+                <dependency id="Kotek.Packages.Onetbb.Vcpkg.Runtimes" version="2021.13.0" />
             </group>
         </dependencies>
     </metadata>

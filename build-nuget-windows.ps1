@@ -31,6 +31,7 @@ $VersionFolderShadercName = ""
 $VersionFolderSpdlogName = ""
 $VersionFolderSpirvReflectName = ""
 $VersionFolderSpirvToolsName = ""
+$VersionFolderOneTbbName = ""
 
 if ($Latest -eq "1") {
     $VersionFolderDav1dName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Dav1d.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
@@ -47,6 +48,7 @@ if ($Latest -eq "1") {
     $VersionFolderSpdlogName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Spdlog.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
     $VersionFolderSpirvReflectName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Spirv-reflect.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
     $VersionFolderSpirvToolsName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Spirv-tools.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
+    $VersionFolderOneTbbName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.TBB.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
 }
 else {
     $VersionFolderDav1dName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Dav1d.Vcpkg\ -Force -Recurse | Select-Object -First 1)
@@ -63,6 +65,7 @@ else {
     $VersionFolderSpdlogName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Spdlog.Vcpkg\ -Force -Recurse | Select-Object -First 1)
     $VersionFolderSpirvReflectName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Spirv-reflect.Vcpkg\ -Force -Recurse | Select-Object -First 1)
     $VersionFolderSpirvToolsName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Spirv-tools.Vcpkg\ -Force -Recurse | Select-Object -First 1)
+    $VersionFolderOneTbbName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.TBB.Vcpkg\ -Force -Recurse | Select-Object -First 1)
 }
 
 . .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Dav1d.Vcpkg -Version $VersionFolderDav1dName -CompilerName $CompilerName
@@ -78,4 +81,5 @@ else {
 . .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Shaderc.Vcpkg -Version $VersionFolderShadercName -CompilerName $CompilerName
 . .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spdlog.Vcpkg -Version $VersionFolderSpdlogName -CompilerName $CompilerName
 . .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spirv-reflect.Vcpkg -Version $VersionFolderSpirvReflectName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spirv-tools.Vcpkg -Version $VersionFolderSpirvReflectName -CompilerName $CompilerName
+. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spirv-tools.Vcpkg -Version $VersionFolderSpirvToolsName -CompilerName $CompilerName
+. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.TBB.Vcpkg -Version $VersionFolderOneTbbName -CompilerName $CompilerName
