@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Wxwidgets.Vcpkg</id>
+        <version>3.2.4</version>
+        <title>wxWidgets</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">licence.txt</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/wxWidgets/wxWidgets</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>Cross-Platform C++ GUI Library</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) 1998-2005 Julian Smart, Robert Roebling et al</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.Wxwidgets.Vcpkg.Runtimes" version="3.2.4" />
+            </group>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\wxwidgets\src\v3.2.4-dac430e50d.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\wxwidgets\src\v3.2.4-dac430e50d.clean\docs\licence.txt" target="licence.txt" />
+    </files>
+</package>

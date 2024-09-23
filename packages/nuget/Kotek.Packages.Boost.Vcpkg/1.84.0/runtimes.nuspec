@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Boost.Vcpkg.Runtimes</id>
+        <version>1.84.0</version>
+        <title>Boost</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">license</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/boostorg/boost</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>Super-project for modularized Boost</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright Beman Dawes 2001.</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.Boost.Vcpkg.Runtimes.Win11.Msvc.x64" version="1.84.0" />
+            </group>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\boost\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\boost\license" target="license" />
+    </files>
+</package>

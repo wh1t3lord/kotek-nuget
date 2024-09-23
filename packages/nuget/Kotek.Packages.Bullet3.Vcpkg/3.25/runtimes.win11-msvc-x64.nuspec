@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Bullet3.Vcpkg.Runtimes.Win11.Msvc.x64</id>
+        <version>3.25</version>
+        <title>Bullet3</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE.txt</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/bulletphysics/bullet3</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) 2003-2013 Erwin Coumans  http://bulletphysics.org</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\bullet3\src\3.25-98f155ca90.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\bullet3\src\3.25-98f155ca90.clean\LICENSE.txt" target="LICENSE.txt" />
+
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\debug\lib\Bullet3Common_Debug.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\debug\lib\BulletCollision_Debug.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\debug\lib\BulletDynamics_Debug.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\debug\lib\BulletInverseDynamics_Debug.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\debug\lib\BulletSoftBody_Debug.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\debug\lib\LinearMath_Debug.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\lib\Bullet3Common.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\lib\BulletCollision.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\lib\BulletDynamics.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\lib\BulletInverseDynamics.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\lib\BulletSoftBody.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\bullet3_x64-windows\lib\LinearMath.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+
+    </files>
+</package>

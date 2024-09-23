@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>Kotek.Packages.Bullet3.Vcpkg.Runtimes</id>
+        <id>Kotek.Packages.Bullet3.Vcpkg</id>
         <version>3.25</version>
         <title>Bullet3</title>
         <authors>wh1t3lord</authors>
@@ -18,7 +18,7 @@
 
         <dependencies>
             <group targetFramework="native">
-                <dependency id="Kotek.Packages.Dav1d.Vcpkg.Runtimes.Win11.Msvc.x64" version="3.25" />
+                <dependency id="Kotek.Packages.Bullet3.Vcpkg.Runtimes" version="3.25" />
             </group>
         </dependencies>
     </metadata>

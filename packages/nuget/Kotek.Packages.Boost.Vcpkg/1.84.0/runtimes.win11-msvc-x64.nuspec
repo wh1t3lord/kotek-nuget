@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Boost.Vcpkg.Runtimes.Win11.Msvc.x64</id>
+        <version>1.84.0</version>
+        <title>Boost</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">license</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/boostorg/boost</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>Super-project for modularized Boost</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright Beman Dawes 2001.</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\boost\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\boost\license" target="license" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-accumulators_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-algorithm_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-align_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-any_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-array_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-asio_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-assert_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-assign_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-atomic_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-beast_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-bimap_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-bind_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-callable-traits_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-chrono_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-circular-buffer_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-cobalt_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-compat_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-compatibility_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-compute_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-concept-check_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-config_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-container_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-container-hash_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-context_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-contract_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-conversion_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-convert_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-core_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-coroutine_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-coroutine2_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-crc_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-date-time_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-describe_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-detail_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-dll_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-dynamic-bitset_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-endian_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-exception_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-fiber_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-flyweight_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-foreach_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-format_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-function_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-functional_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-function-types_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-fusion_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-geometry_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-gil_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-graph_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-hana_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-heap_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-histogram_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-hof_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-icl_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-integer_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-interprocess_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-interval_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-io_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-iostreams_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-iterator_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-json_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-lambda_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-lambda2_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-leaf_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-lexical-cast_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-locale_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-local-function_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-lockfree_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-logic_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-metaparse_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-move_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-mp11_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-mpl_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-msm_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-multi-array_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-multi-index_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-multiprecision_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-mysql_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-nowide_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-numeric-conversion_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-odeint_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-optional_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-outcome_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-parameter_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-parameter-python_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-pfr_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-phoenix_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-poly-collection_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-polygon_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-pool_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-predef_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-preprocessor_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-process_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-program-options_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-property-map_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-property-tree_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-proto_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-ptr-container_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-qvm_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-random_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-range_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-ratio_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-rational_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-redis_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-regex_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-safe-numerics_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-scope-exit_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-signals2_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-smart-ptr_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-sort_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-spirit_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-statechart_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-static-assert_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-static-string_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stl-interfaces_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-throw-exception_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-tokenizer_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-tti_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-tuple_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-index_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-typeof_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-traits_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-ublas_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-units_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-unordered_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-utility_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-uuid_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-variant_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-variant2_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-vmd_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-winapi_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-xpressive_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-yap_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <file src="..\..\..\..\..\vcpkg\packages\boost-atomic_x64-windows\debug\lib\boost_atomic-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-atomic_x64-windows\lib\boost_atomic-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-chrono_x64-windows\debug\lib\boost_chrono-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-chrono_x64-windows\lib\boost_chrono-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-cobalt_x64-windows\debug\lib\boost_cobalt-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-cobalt_x64-windows\lib\boost_cobalt-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-container_x64-windows\debug\lib\boost_container-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-container_x64-windows\lib\boost_container-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-context_x64-windows\debug\lib\boost_context-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-context_x64-windows\lib\boost_context-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-contract_x64-windows\debug\lib\boost_contract-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-contract_x64-windows\lib\boost_contract-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-coroutine_x64-windows\debug\lib\boost_coroutine-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-coroutine_x64-windows\lib\boost_coroutine-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-date-time_x64-windows\debug\lib\boost_date_time-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-date-time_x64-windows\lib\boost_date_time-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-exception_x64-windows\debug\lib\boost_exception-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-exception_x64-windows\lib\boost_exception-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-fiber_x64-windows\debug\lib\boost_fiber-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-fiber_x64-windows\lib\boost_fiber-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-filesystem_x64-windows\debug\lib\boost_filesystem-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-filesystem_x64-windows\lib\boost_filesystem-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-graph_x64-windows\debug\lib\boost_graph-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-graph_x64-windows\lib\boost_graph-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-iostreams_x64-windows\debug\lib\boost_iostreams-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-iostreams_x64-windows\lib\boost_iostreams-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-json_x64-windows\debug\lib\boost_json-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-json_x64-windows\lib\boost_json-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-locale_x64-windows\debug\lib\boost_locale-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-locale_x64-windows\lib\boost_locale-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\debug\lib\boost_log_setup-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\debug\lib\boost_log-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\lib\boost_log-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\lib\boost_log_setup-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\lib\boost_math_c99f-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\lib\boost_math_c99l-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\lib\boost_math_c99-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\lib\boost_math_tr1f-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\lib\boost_math_tr1l-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\lib\boost_math_tr1-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\lib\boost_math_c99f-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\lib\boost_math_c99l-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\lib\boost_math_c99-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\lib\boost_math_tr1f-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\lib\boost_math_tr1l-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\lib\boost_math_tr1-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-nowide_x64-windows\debug\lib\boost_nowide-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-nowide_x64-windows\lib\boost_nowide-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-program-options_x64-windows\debug\lib\boost_program_options-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-program-options_x64-windows\lib\boost_program_options-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\debug\lib\boost_numpy311-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\debug\lib\boost_python311-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\lib\boost_numpy311-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\lib\boost_python311-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-random_x64-windows\debug\lib\boost_random-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-random_x64-windows\lib\boost_random-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-regex_x64-windows\debug\lib\boost_regex-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-regex_x64-windows\lib\boost_regex-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\debug\lib\boost_serialization-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\debug\lib\boost_wserialization-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\lib\boost_serialization-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\lib\boost_wserialization-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\lib\boost_stacktrace_noop-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\lib\boost_stacktrace_windbg_cached-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\lib\boost_stacktrace_windbg-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\lib\boost_stacktrace_noop-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\lib\boost_stacktrace_windbg_cached-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\lib\boost_stacktrace_windbg-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\debug\lib\boost_system-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\lib\boost_system-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\debug\lib\boost_unit_test_framework-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\lib\boost_unit_test_framework-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\debug\lib\boost_thread-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\lib\boost_thread-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\debug\lib\boost_timer-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\lib\boost_timer-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\debug\lib\boost_type_erasure-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\lib\boost_type_erasure-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\debug\lib\boost_url-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\lib\boost_url-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\debug\lib\boost_wave-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\lib\boost_wave-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <file src="..\..\..\..\..\vcpkg\packages\boost-atomic_x64-windows\debug\bin\boost_atomic-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-atomic_x64-windows\bin\boost_atomic-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-chrono_x64-windows\debug\bin\boost_chrono-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-chrono_x64-windows\bin\boost_chrono-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" /> 
+        <file src="..\..\..\..\..\vcpkg\packages\boost-cobalt_x64-windows\debug\bin\boost_cobalt-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-cobalt_x64-windows\bin\boost_cobalt-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" /> 
+        <file src="..\..\..\..\..\vcpkg\packages\boost-container_x64-windows\debug\bin\boost_container-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-container_x64-windows\bin\boost_container-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-context_x64-windows\debug\bin\boost_context-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-context_x64-windows\bin\boost_context-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-contract_x64-windows\debug\bin\boost_contract-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-contract_x64-windows\bin\boost_contract-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-coroutine_x64-windows\debug\bin\boost_coroutine-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-coroutine_x64-windows\bin\boost_coroutine-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-date-time_x64-windows\debug\bin\boost_date_time-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-date-time_x64-windows\bin\boost_date_time-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-fiber_x64-windows\debug\bin\boost_fiber-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-fiber_x64-windows\bin\boost_fiber-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-filesystem_x64-windows\debug\bin\boost_filesystem-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-filesystem_x64-windows\bin\boost_filesystem-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-graph_x64-windows\debug\bin\boost_graph-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-graph_x64-windows\bin\boost_graph-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-iostreams_x64-windows\debug\bin\boost_iostreams-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-iostreams_x64-windows\bin\boost_iostreams-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-json_x64-windows\debug\bin\boost_json-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-json_x64-windows\bin\boost_json-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-locale_x64-windows\debug\bin\boost_locale-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-locale_x64-windows\bin\boost_locale-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\debug\bin\boost_log_setup-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\debug\bin\boost_log-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\bin\boost_log_setup-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\bin\boost_log-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_c99f-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_c99l-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_c99-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_tr1f-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_tr1l-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_tr1-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_c99f-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_c99l-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_c99-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_tr1f-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_tr1l-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_tr1-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-nowide_x64-windows\debug\bin\boost_nowide-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-nowide_x64-windows\bin\boost_nowide-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-program-options_x64-windows\debug\bin\boost_program_options-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-program-options_x64-windows\bin\boost_program_options-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\debug\bin\boost_numpy311-vc143-mt-gyd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\debug\bin\boost_python311-vc143-mt-gyd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\bin\boost_numpy311-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\bin\boost_python311-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-random_x64-windows\debug\bin\boost_random-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-random_x64-windows\bin\boost_random-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-regex_x64-windows\debug\bin\boost_regex-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-regex_x64-windows\bin\boost_regex-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\debug\bin\boost_serialization-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\debug\bin\boost_wserialization-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\bin\boost_serialization-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\bin\boost_wserialization-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\bin\boost_stacktrace_noop-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\bin\boost_stacktrace_windbg_cached-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\bin\boost_stacktrace_windbg-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\bin\boost_stacktrace_noop-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\bin\boost_stacktrace_windbg_cached-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\bin\boost_stacktrace_windbg-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\debug\bin\boost_system-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\bin\boost_system-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\debug\bin\boost_prg_exec_monitor-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\debug\bin\boost_unit_test_framework-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\bin\boost_unit_test_framework-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\bin\boost_prg_exec_monitor-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\debug\bin\boost_thread-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\bin\boost_thread-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\debug\bin\boost_timer-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\bin\boost_timer-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\debug\bin\boost_type_erasure-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\bin\boost_type_erasure-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\debug\bin\boost_url-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\bin\boost_url-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\debug\bin\boost_wave-vc143-mt-gd-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\bin\boost_wave-vc143-mt-x64-1_84.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+
+
+
+
+
+
+
+
+
+
+
+        <file src="..\..\..\..\..\vcpkg\packages\boost-atomic_x64-windows\debug\bin\boost_atomic-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-atomic_x64-windows\bin\boost_atomic-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-chrono_x64-windows\debug\bin\boost_chrono-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-chrono_x64-windows\bin\boost_chrono-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-cobalt_x64-windows\debug\bin\boost_cobalt-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-cobalt_x64-windows\bin\boost_cobalt-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-container_x64-windows\debug\bin\boost_container-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-container_x64-windows\bin\boost_container-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-context_x64-windows\debug\bin\boost_context-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-context_x64-windows\bin\boost_context-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-contract_x64-windows\debug\bin\boost_contract-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-contract_x64-windows\bin\boost_contract-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-coroutine_x64-windows\debug\bin\boost_coroutine-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-coroutine_x64-windows\bin\boost_coroutine-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-date-time_x64-windows\debug\bin\boost_date_time-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-date-time_x64-windows\bin\boost_date_time-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-fiber_x64-windows\debug\bin\boost_fiber-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-fiber_x64-windows\bin\boost_fiber-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-filesystem_x64-windows\debug\bin\boost_filesystem-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-filesystem_x64-windows\bin\boost_filesystem-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-graph_x64-windows\debug\bin\boost_graph-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-graph_x64-windows\bin\boost_graph-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-iostreams_x64-windows\debug\bin\boost_iostreams-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-iostreams_x64-windows\bin\boost_iostreams-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-json_x64-windows\debug\bin\boost_json-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-json_x64-windows\bin\boost_json-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-locale_x64-windows\debug\bin\boost_locale-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-locale_x64-windows\bin\boost_locale-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\debug\bin\boost_log_setup-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\debug\bin\boost_log-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\bin\boost_log_setup-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\bin\boost_log-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_c99f-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_c99l-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_c99-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_tr1f-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_tr1l-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\debug\bin\boost_math_tr1-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_c99f-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_c99l-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_c99-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_tr1f-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_tr1l-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\bin\boost_math_tr1-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-nowide_x64-windows\debug\bin\boost_nowide-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-nowide_x64-windows\bin\boost_nowide-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-program-options_x64-windows\debug\bin\boost_program_options-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-program-options_x64-windows\bin\boost_program_options-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\debug\bin\boost_numpy311-vc143-mt-gyd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\debug\bin\boost_python311-vc143-mt-gyd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\bin\boost_numpy311-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-python_x64-windows\bin\boost_python311-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-random_x64-windows\debug\bin\boost_random-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-random_x64-windows\bin\boost_random-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-regex_x64-windows\debug\bin\boost_regex-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-regex_x64-windows\bin\boost_regex-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\debug\bin\boost_serialization-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\debug\bin\boost_wserialization-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\bin\boost_serialization-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\bin\boost_wserialization-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\bin\boost_stacktrace_noop-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\bin\boost_stacktrace_windbg_cached-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\bin\boost_stacktrace_windbg-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\bin\boost_stacktrace_noop-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\bin\boost_stacktrace_windbg_cached-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\bin\boost_stacktrace_windbg-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\debug\bin\boost_system-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\bin\boost_system-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\debug\bin\boost_prg_exec_monitor-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\debug\bin\boost_unit_test_framework-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\bin\boost_unit_test_framework-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\bin\boost_prg_exec_monitor-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\debug\bin\boost_thread-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\bin\boost_thread-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\debug\bin\boost_timer-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\bin\boost_timer-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\debug\bin\boost_type_erasure-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\bin\boost_type_erasure-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\debug\bin\boost_url-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\bin\boost_url-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\debug\bin\boost_wave-vc143-mt-gd-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\bin\boost_wave-vc143-mt-x64-1_84.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+
+    </files>
+</package>
