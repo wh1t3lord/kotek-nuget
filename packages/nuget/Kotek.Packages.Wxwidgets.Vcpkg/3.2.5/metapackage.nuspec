@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>Kotek.Packages.Wxwidgets.Vcpkg.Runtimes</id>
+        <id>Kotek.Packages.Wxwidgets.Vcpkg</id>
         <version>3.2.5</version>
         <title>wxWidgets</title>
         <authors>wh1t3lord</authors>
@@ -18,8 +18,7 @@
 
         <dependencies>
             <group targetFramework="native">
-                <dependency id="Kotek.Packages.Wxwidgets.Vcpkg.Runtimes.Win11.Msvc.x64" version="3.2.5" />
-                <dependency id="Kotek.Packages.Wxwidgets.Vcpkg.Runtimes.Win10.Msvc.x64" version="3.2.5" />
+                <dependency id="Kotek.Packages.Wxwidgets.Vcpkg.Runtimes" version="3.2.5" />
             </group>
         </dependencies>
     </metadata>

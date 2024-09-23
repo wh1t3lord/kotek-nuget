@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Wxwidgets.Vcpkg.Runtimes.Win11.Msvc.x64</id>
+        <version>3.2.5</version>
+        <title>wxWidgets</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">licence.txt</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/wxWidgets/wxWidgets</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>Cross-Platform C++ GUI Library</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) 1998-2005 Julian Smart, Robert Roebling et al</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+    </metadata>
+
+    <files>
+        <file src="..\..\..\..\..\vcpkg\buildtrees\wxwidgets\src\v3.2.5-737796f0e2.clean\README.md" target="README.md" />
+        <file src="..\..\..\..\..\vcpkg\buildtrees\wxwidgets\src\v3.2.5-737796f0e2.clean\docs\licence.txt" target="licence.txt" />
+
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\mswu\wx\setup.h" target="runtimes\win11\msvc\x64\lib\mswu\wx\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\mswud\wx\setup.h" target="runtimes\win11\msvc\x64\debug\lib\mswud\wx\" />
+
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxbase32ud.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxbase32ud_net.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxbase32ud_xml.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_adv.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_aui.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_core.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_gl.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_html.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_propgrid.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_qa.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_ribbon.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_richtext.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_stc.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\lib\wxmsw32ud_xrc.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxbase32u.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxbase32u_net.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxbase32u_xml.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_adv.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_aui.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_core.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_gl.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_html.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_propgrid.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_qa.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_ribbon.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_richtext.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_stc.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\lib\wxmsw32u_xrc.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+
+
+
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxbase32ud_net_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxbase32ud_net_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxbase32ud_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxbase32ud_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxbase32ud_xml_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxbase32ud_xml_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_adv_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_adv_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_aui_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_aui_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_core_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_core_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_gl_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_gl_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_html_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_html_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_propgrid_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_propgrid_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_qa_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_qa_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_ribbon_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_ribbon_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_richtext_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_richtext_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_stc_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_stc_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_xrc_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\debug\bin\wxmsw32ud_xrc_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Debug\" />
+
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxbase32u_net_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxbase32u_net_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxbase32u_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxbase32u_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxbase32u_xml_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxbase32u_xml_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_adv_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_adv_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_aui_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_aui_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_core_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_core_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_gl_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_gl_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_html_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_html_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_propgrid_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_propgrid_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_qa_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_qa_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_ribbon_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_ribbon_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_richtext_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_richtext_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_stc_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_stc_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_xrc_vc_custom.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\wxwidgets_x64-windows\bin\wxmsw32u_xrc_vc_custom.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+
+    </files>
+</package>
