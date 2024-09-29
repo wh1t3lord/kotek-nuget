@@ -243,26 +243,26 @@
         <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\debug\lib\boost_wserialization-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\lib\boost_serialization-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-serialization_x64-windows\lib\boost_wserialization-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\lib\boost_stacktrace_noop-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\lib\boost_stacktrace_windbg_cached-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\lib\boost_stacktrace_windbg-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\lib\boost_stacktrace_noop-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\lib\boost_stacktrace_windbg_cached-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\lib\boost_stacktrace_windbg-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\debug\lib\boost_system-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\lib\boost_system-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\debug\lib\boost_unit_test_framework-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\lib\boost_unit_test_framework-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\debug\lib\boost_thread-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\lib\boost_thread-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\debug\lib\boost_timer-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\lib\boost_timer-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\debug\lib\boost_type_erasure-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\lib\boost_type_erasure-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\debug\lib\boost_url-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\lib\boost_url-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\debug\lib\boost_wave-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\bin\Debug\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\lib\boost_wave-vc140-mt.lib" target="runtimes\win11\msvc\x64\bin\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\lib\boost_stacktrace_noop-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\lib\boost_stacktrace_windbg_cached-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\debug\lib\boost_stacktrace_windbg-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\lib\boost_stacktrace_noop-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\lib\boost_stacktrace_windbg_cached-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-stacktrace_x64-windows\lib\boost_stacktrace_windbg-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\debug\lib\boost_system-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-system_x64-windows\lib\boost_system-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\debug\lib\boost_unit_test_framework-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-test_x64-windows\lib\boost_unit_test_framework-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\debug\lib\boost_thread-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-thread_x64-windows\lib\boost_thread-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\debug\lib\boost_timer-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-timer_x64-windows\lib\boost_timer-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\debug\lib\boost_type_erasure-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-type-erasure_x64-windows\lib\boost_type_erasure-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\debug\lib\boost_url-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\lib\boost_url-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\debug\lib\boost_wave-vc140-mt-gd.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+        <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\lib\boost_wave-vc140-mt.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
 
 
 
