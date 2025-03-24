@@ -2,7 +2,7 @@
 <package>
     <metadata>
         <id>Kotek.Packages.Boost.Vcpkg.Runtimes.Win11.Msvc.x64</id>
-        <version>1.84.1</version>
+        <version>1.84.2</version>
         <title>Boost</title>
         <authors>wh1t3lord</authors>
         <owners>wh1t3lord</owners>
@@ -32,7 +32,6 @@
         <file src="..\..\..\..\..\vcpkg\packages\boost-beast_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-bimap_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-bind_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-build_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-callable-traits_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-chrono_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-circular-buffer_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
@@ -95,7 +94,6 @@
         <file src="..\..\..\..\..\vcpkg\packages\boost-log_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-math_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-metaparse_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-modular-build-helper_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-move_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-mp11_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-mpl_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
@@ -157,7 +155,6 @@
         <file src="..\..\..\..\..\vcpkg\packages\boost-type-traits_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-typeof_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-ublas_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-uninstall_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-units_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-unordered_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-url_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
@@ -165,14 +162,11 @@
         <file src="..\..\..\..\..\vcpkg\packages\boost-uuid_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-variant2_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-variant_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost-vcpkg-helpers_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-vmd_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-wave_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-winapi_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-xpressive_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
         <file src="..\..\..\..\..\vcpkg\packages\boost-yap_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
-        <file src="..\..\..\..\..\vcpkg\packages\boost_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
-
 
 
 

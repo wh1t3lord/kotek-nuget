@@ -83,23 +83,23 @@ else {
     $VersionFolderBoostName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Boost.Vcpkg\ -Force -Recurse | Select-Object -First 1)
 }
 
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Dav1d.Vcpkg -Version $VersionFolderDav1dName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.DirectXMath.Vcpkg -Version $VersionFolderDirectXMathName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Cgltf.Vcpkg -Version $VersionFolderCgltfName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Eigen3.Vcpkg -Version $VersionFolderEigen3Name -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Entt.Vcpkg -Version $VersionFolderEnttName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Etl.Vcpkg -Version $VersionFolderETlName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Glfw3.Vcpkg -Version $VersionFolderGlfw3Name -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Glm.Vcpkg -Version $VersionFolderGLMName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Ktx.Vcpkg -Version $VersionFolderKTXName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Mimalloc.Vcpkg -Version $VersionFolderMimallocName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Shaderc.Vcpkg -Version $VersionFolderShadercName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spdlog.Vcpkg -Version $VersionFolderSpdlogName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spirv-reflect.Vcpkg -Version $VersionFolderSpirvReflectName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spirv-tools.Vcpkg -Version $VersionFolderSpirvToolsName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.TBB.Vcpkg -Version $VersionFolderOneTbbName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Tracy.Vcpkg -Version $VersionFolderTracyName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Utfcpp.Vcpkg -Version $VersionFolderUtfcppName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Wxwidgets.Vcpkg -Version $VersionFolderWxwidgetsName -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Bullet3.Vcpkg -Version $VersionFolderBullet3Name -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Boost.Vcpkg -Version $VersionFolderBoostName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Dav1d.Vcpkg -Version $VersionFolderDav1dName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.DirectXMath.Vcpkg -Version $VersionFolderDirectXMathName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Cgltf.Vcpkg -Version $VersionFolderCgltfName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Eigen3.Vcpkg -Version $VersionFolderEigen3Name -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Entt.Vcpkg -Version $VersionFolderEnttName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Etl.Vcpkg -Version $VersionFolderETlName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Glfw3.Vcpkg -Version $VersionFolderGlfw3Name -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Glm.Vcpkg -Version $VersionFolderGLMName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Ktx.Vcpkg -Version $VersionFolderKTXName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Mimalloc.Vcpkg -Version $VersionFolderMimallocName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Shaderc.Vcpkg -Version $VersionFolderShadercName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spdlog.Vcpkg -Version $VersionFolderSpdlogName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spirv-reflect.Vcpkg -Version $VersionFolderSpirvReflectName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Spirv-tools.Vcpkg -Version $VersionFolderSpirvToolsName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.TBB.Vcpkg -Version $VersionFolderOneTbbName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Tracy.Vcpkg -Version $VersionFolderTracyName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Utfcpp.Vcpkg -Version $VersionFolderUtfcppName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Wxwidgets.Vcpkg -Version $VersionFolderWxwidgetsName -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Bullet3.Vcpkg -Version $VersionFolderBullet3Name -CompilerName $CompilerName
+. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Boost.Vcpkg -Version "1.84.2" -CompilerName $CompilerName
