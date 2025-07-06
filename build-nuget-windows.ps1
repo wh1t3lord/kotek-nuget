@@ -37,6 +37,7 @@ $VersionFolderUtfcppName = ""
 $VersionFolderWxwidgetsName = ""
 $VersionFolderBullet3Name = ""
 $VersionFolderBoostName = ""
+$VersionFolderOpenSSLName = ""
 
 if ($Latest -eq "1") {
     $VersionFolderDav1dName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Dav1d.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
@@ -59,6 +60,7 @@ if ($Latest -eq "1") {
     $VersionFolderWxwidgetsName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Wxwidgets.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
     $VersionFolderBullet3Name = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Bullet3.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
     $VersionFolderBoostName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Boost.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
+    $VersionFolderOpenSSLName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.OpenSSL.Vcpkg\ -Force -Recurse | Select-Object -Last 1)
 }
 else {
     $VersionFolderDav1dName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Dav1d.Vcpkg\ -Force -Recurse | Select-Object -First 1)
@@ -81,6 +83,7 @@ else {
     $VersionFolderWxwidgetsName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Wxwidgets.Vcpkg\ -Force -Recurse | Select-Object -First 1)
     $VersionFolderBullet3Name = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Bullet3.Vcpkg\ -Force -Recurse | Select-Object -First 1)
     $VersionFolderBoostName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.Boost.Vcpkg\ -Force -Recurse | Select-Object -First 1)
+    $VersionFolderOpenSSLName = (Get-ChildItem -Directory -Path .\packages\nuget\Kotek.Packages.OpenSSL.Vcpkg\ -Force -Recurse | Select-Object -First 1)
 }
 
 #. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Dav1d.Vcpkg -Version $VersionFolderDav1dName -CompilerName $CompilerName
@@ -102,4 +105,8 @@ else {
 #. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Utfcpp.Vcpkg -Version $VersionFolderUtfcppName -CompilerName $CompilerName
 #. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Wxwidgets.Vcpkg -Version $VersionFolderWxwidgetsName -CompilerName $CompilerName
 #. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Bullet3.Vcpkg -Version $VersionFolderBullet3Name -CompilerName $CompilerName
-. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Boost.Vcpkg -Version "1.84.2" -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Boost.Vcpkg -Version "1.84.2" -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.OpenSSL.Vcpkg -Version "3.5.0" -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Zstd.Vcpkg -Version "1.5.7" -CompilerName $CompilerName
+#. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.zlib.Vcpkg -Version "1.3.1" -CompilerName $CompilerName
+. .\build-windows.ps1 -Type nuget -Name Kotek.Packages.Clang.Vcpkg -Version "18.1.6" -CompilerName $CompilerName

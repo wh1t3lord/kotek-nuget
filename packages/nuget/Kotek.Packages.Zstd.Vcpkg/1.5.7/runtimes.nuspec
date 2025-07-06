@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Zstd.Vcpkg.Runtimes</id>
+        <version>1.5.7</version>
+        <title>Zstd</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/facebook/zstd</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>Zstandard - Fast real-time compression algorithm</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.Zstd.Vcpkg.Runtimes.Win11.Msvc.x64" version="1.5.7" />
+            </group>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\zstd\src\v1.5.7-bb6cae2b2e.clean\README.md" target="README.md" />
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\zstd\src\v1.5.7-bb6cae2b2e.clean\LICENSE" target="LICENSE" />
+    </files>
+</package>

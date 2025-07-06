@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.Clang.Vcpkg.Runtimes.Win11.Msvc.x64</id>
+        <version>18.1.6</version>
+        <title>Clang</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE.txt</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/llvm/llvm-project</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) 2003-2019 University of Illinois at Urbana-Champaign.</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+    </metadata>
+
+    <files>
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\llvm\src\org-18.1.6-9cd29eccee.clean\README.md" target="README.md" />
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\llvm\src\org-18.1.6-9cd29eccee.clean\LICENSE.txt" target="LICENSE.txt" />
+
+        <file src="C:\Users\micro\prj\cpp\vcpkg\packages\llvm_x64-windows\include\**" target="runtimes\win11\msvc\x64\include\" />
+
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\llvm\x64-windows-dbg\lib\libclang.lib" target="runtimes\win11\msvc\x64\lib\Debug\" />
+
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\llvm\x64-windows-rel\lib\libclang.lib" target="runtimes\win11\msvc\x64\lib\Release\" />
+
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\llvm\x64-windows-rel\bin\libclang.pdb" target="runtimes\win11\msvc\x64\bin\Release\" />
+        
+
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\llvm\x64-windows-dbg\bin\libclang.dll" target="runtimes\win11\msvc\x64\bin\Debug\" />
+
+
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\llvm\x64-windows-rel\bin\libclang.dll" target="runtimes\win11\msvc\x64\bin\Release\" />
+
+    </files>
+</package>

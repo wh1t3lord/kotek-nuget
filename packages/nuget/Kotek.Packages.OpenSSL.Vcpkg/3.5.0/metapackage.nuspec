@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Kotek.Packages.OpenSSL.Vcpkg</id>
+        <version>3.5.0</version>
+        <title>OpenSSL</title>
+        <authors>wh1t3lord</authors>
+        <owners>wh1t3lord</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE.txt</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/openssl/openssl</projectUrl>
+        <repository type="git" url="https://github.com/wh1t3lord/kotek-nuget" />
+        <description>TLS/SSL and crypto library</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright (c) 1998-2025 The OpenSSL Project Authors</copyright>
+        <tags>Native C++ NativePackage kotek Zircon</tags>
+
+        <dependencies>
+            <group targetFramework="native">
+                <dependency id="Kotek.Packages.OpenSSL.Vcpkg.Runtimes" version="3.5.0" />
+            </group>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\openssl\src\nssl-3.5.0-3b91ebed43.clean\README.md" target="README.md" />
+        <file src="C:\Users\micro\prj\cpp\vcpkg\buildtrees\openssl\src\nssl-3.5.0-3b91ebed43.clean\LICENSE.txt" target="LICENSE.txt" />
+    </files>
+</package>
